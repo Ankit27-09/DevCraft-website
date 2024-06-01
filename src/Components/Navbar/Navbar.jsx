@@ -205,7 +205,7 @@ const Navbar = () => {
               <Link to="/contact"> Help </Link>
             </li>
             <li className="cta-button">
-              <Link to="/vision-mission">Vision & Mission </Link>
+              <Link to="https://maps.app.goo.gl/1ZJ5kq9pNziA2jA77" target="_blank">Locate us</Link>
             </li>
           </ul>
         </div>
@@ -221,8 +221,8 @@ const Navbar = () => {
           
           <div className="name-text">
           <Link to='/'>
-            <p> ಸರ್ಕಾರಿ ಸಂಸ್ಥೆ, ರಾಜಾನುಕುಂಟೆ </p>
-            <p> Government Institutions, Rajanukunte </p>
+            <p> ಸರ್ಕಾರಿ ಶಾಲೆಗಳು ಮತ್ತು ಪಿಯು ಕಾಲೇಜು, ರಾಜಾನುಕುಂಟೆ </p>
+            <p> Government Schools and PU College, Rajanukunte </p>
           </Link>
           </div>
           </div>
@@ -280,7 +280,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link to="/principal" onClick={toggleNavbar}>
-                    <FaUser /> Principal
+                    <FaUser /> Principals
                   </Link>
                 </li>
               </ul>
